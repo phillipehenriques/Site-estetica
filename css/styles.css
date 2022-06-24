@@ -7410,8 +7410,8 @@ textarea.form-control-lg {
   background-color: #ffc800 !important;
 }
 
-.bg-danger {
-  background-color: #dc3545 !important;
+.bg-navbar {
+  background-color: #CA9BBB !important;
 }
 
 .bg-light {
@@ -10862,7 +10862,9 @@ p {
 }
 
 .fundo {
-  background-color: #1A1A1A;
+  background-image: url("../assets/img/portfolio/imagem2.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .caixa-post {
@@ -11040,7 +11042,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #CA9BBB;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11050,7 +11052,7 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #ffc800;
+  color: white;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -11062,7 +11064,7 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: white;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11109,7 +11111,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/background-header0.png");
+  background-image: url("../assets/img/portfolio/imagem4.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11441,8 +11443,8 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/background-header0.png");
+  background-color: none;
+  background-image: url("../assets/img/portfolio/imagem1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 10%;
