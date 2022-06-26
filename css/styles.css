@@ -10862,7 +10862,7 @@ p {
 }
 
 .fundo {
-  background-image: url("../assets/img/portfolio/imagem2.png");
+  background-image: url("../assets/img/portfolio/20.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -11110,8 +11110,8 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/portfolio/imagem4.jpg");
+  color: white;
+  background-color: pink;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
