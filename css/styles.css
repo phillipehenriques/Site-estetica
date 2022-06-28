@@ -11113,12 +11113,14 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: white;
-  /* GRADIENT GENERATOR */
+  /* mas */
+  background-image: url("../assets/img/portfolio/cabeçalho.png");
+  /*
   background-color: rgb(235,193,222);
-  background: radial-gradient(circle, rgba(235,193,222,1) 13%, rgba(202,155,187,1) 77%);
-  /* GRADIENT GENERATOR */
+  background: radial-gradient(circle, rgba(235,193,222,1) 13%, rgba(202,155,187,1) 77%); 
+  */
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: scroll; /* fixed */
   background-position: center center;
   background-size: cover;
 }
@@ -11448,8 +11450,8 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: pink;
-  /*background-image: url("../assets/img/portfolio/imagem1.jpg");*/
+  /*background-color: pink;*/
+  background-image: url("../assets/img/portfolio/cabeçalho.png");
   background-repeat: no-repeat;
   background-position: center;
   padding: 10%;
