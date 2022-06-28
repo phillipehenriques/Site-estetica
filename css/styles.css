@@ -10862,7 +10862,9 @@ p {
 }
 
 .fundo {
-  background-image: url("../assets/img/portfolio/20.jpg");
+  background-color: rgb(235,193,222);
+  background: radial-gradient(circle, rgba(235,193,222,1) 13%, rgba(202,155,187,1) 77%);
+  /*background-image: url("../assets/img/portfolio/20.jpg");*/
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -11111,7 +11113,10 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: white;
-  background-color: pink;
+  /* GRADIENT GENERATOR */
+  background-color: rgb(235,193,222);
+  background: radial-gradient(circle, rgba(235,193,222,1) 13%, rgba(202,155,187,1) 77%);
+  /* GRADIENT GENERATOR */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11443,8 +11448,8 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: none;
-  background-image: url("../assets/img/portfolio/imagem1.jpg");
+  background-color: pink;
+  /*background-image: url("../assets/img/portfolio/imagem1.jpg");*/
   background-repeat: no-repeat;
   background-position: center;
   padding: 10%;
