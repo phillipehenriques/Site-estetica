@@ -10908,11 +10908,23 @@ p {
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 14rem;
+  margin-bottom: 10rem;
+}
+
+.section-subheading-instagram {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 12.5rem;
 }
 
 .mais-conhecimento {
   margin-top: none;
+}
+
+.ajuste {
+  margin-bottom: 1rem;
 }
 
 .section-subheading-arte-digital {
@@ -11002,6 +11014,13 @@ p {
 }
 .classeIMG:hover { 
   transform: scale(1.1); 
+}
+
+.classe_IMG { 
+  transition: 0.5s; 
+}
+.classe_IMG:hover { 
+  transform: scale(0.98); 
 }
 
 .centro {
@@ -11123,6 +11142,19 @@ header.masthead {
   background-attachment: scroll; /* fixed */
   background-position: center center;
   background-size: cover;
+}
+
+.div-google {
+  margin-bottom: 3rem;
+}
+
+.mapa-google {
+  transform: scale(0.85)
+}
+
+.mapa-google:hover {
+  transform: scale(0.87)
+  animation: fadein 1.0s;
 }
 
 .text-responsive2 {
